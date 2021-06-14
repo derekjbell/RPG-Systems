@@ -1,5 +1,15 @@
-# RPG-Systems
+# RPG Systems
  RPG project made with Unity. Learning how to blend different gameplay systems together.
+ 
+### All models and animations from Synty Studios: 
+
+https://assetstore.unity.com/publishers/5217/?orderBy=1&page=3&pageSize=24&plusPro=false&price=0-4000&rating=0&released=0
+ 
+## Youtube Demo:
+
+https://www.youtube.com/watch?v=dVkArio9CF8
+
+
 
 # Current Progress:
 
@@ -8,7 +18,9 @@
 - Navmesh agent used for logic of where static environment objects restrict movement
 
 - [x] Camera
-- Fixed camera on character
+- Utilizing Cinemachine library to initiate follow camera on player
+- Multiple virtual cameras added to scene to create intro cinematic
+- Cameras are blended and moved between using an animator timeline
 
 - [x] Animation
 - Animation blend trees for smooth transitions from standing to walking to running
